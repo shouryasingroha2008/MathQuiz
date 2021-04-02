@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="game_page.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+    <br>
+    <h4 id="player2_name"></h4> <span id="player2_score"></span>
+    <div class="container">
+        <center>
+            <h2>The Math Quiz!</h2>
+            <h4 id="player_q"></h4>
+            <br>
+            <h4 id="player_ans"></h4>
+            <div id="output">
+            </div>
+            <br>
+            <h4>First number:</h5> <input type="text" placeholder="Enter here" id="num1"
+                        class="form-control">
+                <br>
+                <h4>Second number:</h5> <input type="text" placeholder="Enter here" id="num2"
+                            class="form-control">
+<br>
+                            <button class="btn btn-primary" id="btn_send" onclick="send()">SEND</button>
+        </center>
+    </div>
+    <script src="quiz_game_page.js"></script>
+</body>
+
+</html>

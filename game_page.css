@@ -1,0 +1,54 @@
+body{
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    color: rgb(8, 8, 87);
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Langar', cursive;
+}
+h4{
+    background-color: #f3ec78;
+    background-image: linear-gradient(to right, #b20d0d, #9a0033, #741144, #491e43, #271e31);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+#num1{
+    width: 300px;
+    height: 50px;
+    border-radius: 75px;
+    background-color: rgba(17, 17, 17, 0.712);
+    color: aliceblue;
+    font-size: 20px;
+}
+#num2{
+    width: 300px;
+    height: 50px;
+    border-radius: 75px;
+    background-color: rgba(17, 17, 17, 0.712);
+    color: aliceblue;
+    font-size: 20px;
+}
+#output{
+background: white;
+border-radius: 10px;
+border-top: 10px solid teal;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#btn_send{
+    width: 80px;
+    height: 40px;
+}
+span{
+    font-size: 20px;
+}
